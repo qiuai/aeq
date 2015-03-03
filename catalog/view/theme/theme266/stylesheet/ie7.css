@@ -1,0 +1,81 @@
+/* God I hate Microsoft! */
+header #logo a img {
+	width:auto
+	}
+
+.banner>div:hover img {
+	transform: scale(1.1,1.1); 
+	-o-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	}
+.banner>div:hover h1 {
+	color:#f95900;
+	}
+/***************box************************/
+#content .box .box-content .box-product ul li .price {
+	margin-top:10px;
+	}
+#content .box .box-content .box-product ul li.last_line {
+	margin-bottom:0;
+	}
+
+.box .box-product ul li {
+	border:1px solid #d9d9d9;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	margin-bottom:32px;
+	}
+.box .box-product ul li .description {
+	color:#bcbcbc;
+	line-height:18px;
+	}
+.box .box-product ul li .inner2 {
+	padding:20px 20px 25px;
+	}
+.box .box-product ul li .f-left {
+	background:url(../image/inner.png) repeat-x left top;
+	padding:15px;
+	}
+.box .box-product .cart-button a.button span {display:none;}
+.preview .cart-button a.button span {display:none;}
+.cart-button a.button i {
+	font-size:20px;
+	line-height:38px;
+	width:38px;
+	display:block;
+	text-align:center;
+	color:#fff
+	}
+#content .box .box-product .cart-button {
+	float:right;
+	}
+aside .box .box-product .price {
+	margin-bottom:10px;
+	}
+#content .box .box-product .price {
+	float:left;
+	}
+#content .box .box-product .cart-button div{
+	float:left;
+	}
+/********************************************/
+.product-grid ul li {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #D9D9D9;
+	}
+.product-grid ul li .left{
+	padding:20px 20px 3px
+	}
+	
+#page {
+	width:980px;
+	max-width:none;
+	}
+#content .box .box-product .price, #content .box .box-product .cart-button {
+	float:none;
+	margin-top:10px;
+	}
+.product-grid .cart {float:none;}
+#content .product-grid .wishlist a, #content .product-grid  .compare a {margin:10px 10px 0 0}
